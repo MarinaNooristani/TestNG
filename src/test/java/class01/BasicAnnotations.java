@@ -11,7 +11,7 @@ public class BasicAnnotations {
         System.out.println("This is my first test case");
     }
 
-    @Test
+    @Test(groups = "smoke")
     public void asecondTest() {//execute 1
         System.out.println("This is my second test case");
     }
